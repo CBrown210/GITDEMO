@@ -8,3 +8,8 @@ void ProgramContainer::Program(){}
 void ProgramContainer::testProgram(){
   cout << "Test success!";
 }
+int ProgramContainer::setNumber(int input){
+  number = input;
+
+  return number;  
+}

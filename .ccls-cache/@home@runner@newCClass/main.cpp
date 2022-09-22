@@ -27,10 +27,12 @@ int main() {
       break;
     case(2):
       int inputNum;
-      cout << "Gib number:";
+      int newNum;
+      cout << "Gib number: ";
       cin >> inputNum;
-      cout
-      prog.setNumber(inputNum);
+      cout << endl;
+      newNum = prog.setNumber(inputNum);
+      cout << "New number: " << newNum << endl;;
       break;
     case(3):
       cout << "Not implemented";
@@ -44,6 +46,7 @@ int main() {
     case(99):
       cout << "Goodbye.";
       break;
+    
     
   }
   
